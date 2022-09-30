@@ -1,0 +1,9 @@
+curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=3fd7a295-92e8-47c5-b840-e8cbafaa197a' \
+   -H 'Content-Type: application/json' \
+   -d '
+   {
+    	"msgtype": "text",
+    	"text": {
+        	"content": "Test"
+    	}
+   
